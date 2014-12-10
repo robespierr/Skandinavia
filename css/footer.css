@@ -160,6 +160,7 @@ a {
 }
 .footer__contacts .address,
 .footer__contacts .tel {
+  font-family: 'helveticaneuecyr-light', 'Arial', sans-serif, serif;
   font-size: 0.8125em;
   line-height: 1.2;
 }
@@ -169,11 +170,15 @@ a {
   margin-bottom: 0.625em;
 }
 .footer__legal-info p {
+  font-family: 'helveticaneuecyr-light', 'Arial', sans-serif, serif;
   font-size: 0.8125em;
+  line-height: inherit;
 }
 .developed-by {
   text-align: right;
+  font-family: 'helveticaneuecyr-light', 'Arial', sans-serif, serif;
   font-size: 0.8125em;
+  line-height: inherit;
 }
 .developed-by a:hover {
   text-decoration: underline;

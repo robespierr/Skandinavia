@@ -130,7 +130,7 @@ a {
 }
 .header__company-tel {
   float: left;
-  font-family: 'helveticaneuecyr-roman', 'Arial', sans-serif, serif;
+  font-family: 'helveticaneuecyr-light', 'Arial', sans-serif, serif;
   font-size: 0.8125em;
   line-height: inherit;
   color: #ffffff;
@@ -148,7 +148,7 @@ a {
 }
 .header__order-call .order-tel {
   margin-bottom: 0.16666666666666666em;
-  font-family: 'helveticaneuecyr-roman', 'Arial', sans-serif, serif;
+  font-family: 'helveticaneuecyr-light', 'Arial', sans-serif, serif;
   font-size: 1.1875em;
   line-height: inherit;
 }
@@ -165,7 +165,7 @@ a {
   border-radius: 0.6923076923076923em;
   -webkit-border-radius: 0.6923076923076923em;
   -moz-border-radius: 0.6923076923076923em;
-  font-family: 'helveticaneuecyr-roman', 'Arial', sans-serif, serif;
+  font-family: 'helveticaneuecyr-light', 'Arial', sans-serif, serif;
   font-size: 0.8125em;
   line-height: 1.3846153846153846em;
   margin-bottom: 1px;
@@ -180,6 +180,8 @@ a {
 }
 .header__address p {
   color: #ffffff;
+  font-family: 'helveticaneuecyr-light', 'Arial', sans-serif, serif;
+  font-size: 1em;
   line-height: 1.375em;
 }
 /* end header styles */
