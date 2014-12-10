@@ -1,0 +1,70 @@
+@import 'lib/mixins';
+@import 'project_style';
+/* header styles */
+
+.header__wrap{
+//  padding: 11em/@bfz 0 6em/@bfz;
+  padding: 11em/@bfz 0 14em/@bfz;
+  .clearfix;
+}
+
+//elems:
+
+.header__company-tel{
+  float:left;
+
+  .helvetica-light(13em/@bfz);
+  color:@white;
+
+  .company-tel{
+    .helvetica-bold(19em/13);
+  }
+}
+
+.header__order-call{
+  float:right;
+  margin-left: 20em/@bfz;
+
+  text-align: center;
+  color:@white;
+
+  .order-tel{
+    margin-bottom: 3em/18;
+    .helvetica-light(19em/@bfz);
+
+    .base-tel{
+      .helvetica-bold(1em);
+    }
+  }
+
+}
+.order-call__button{
+  .button;
+  width: 100%;
+  height: 18em/13;
+  background: #fff;
+  color:@blue;
+
+  .border-radius(9em/13);
+  .helvetica-light(13em/@bfz,18em/13);
+
+  margin-bottom: 1px;
+  &:active{
+    margin-top: 1px;
+    margin-bottom: 0;
+  }
+}
+
+.header__address{
+  float:right;
+  margin-left: 20em/@bfz;
+
+  p{
+    color:@white;
+    line-height: 22em/@bfz;
+  }
+}
+
+//end elems
+
+/* end header styles */
