@@ -1,0 +1,116 @@
+/* common mixins */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.border-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;
+}
+.text-input,
+.button {
+  border: 0;
+  background: none;
+  outline: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;
+}
+.bg-cover {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+/* end common mixins */
+/* base project styles */
+@font-face {
+  font-family: 'helveticaneuecyr-bold';
+  src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
+  src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'), url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'), url('../fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'helveticaneuecyr-roman';
+  src: url('../fonts/helveticaneuecyr-roman-webfont.eot');
+  src: url('../fonts/helveticaneuecyr-roman-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneuecyr-roman-webfont.woff') format('woff'), url('../fonts/helveticaneuecyr-roman-webfont.woff2') format('woff2'), url('../fonts/helveticaneuecyr-roman-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'helveticaneuecyr-light';
+  src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+  src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'), url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'), url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@media only screen and (max-width: 1023px) and (min-width: 481px) {
+  
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'helveticaneuecyr-roman', 'Arial', sans-serif, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000000;
+  background: #1490c2;
+}
+.wrap {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+b,
+strong {
+  font-weight: normal;
+  font-family: 'helveticaneuecyr-roman', 'Arial', sans-serif, serif;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+.page-content-wrap {
+  padding: 0.9375em 2.8125em 3.75em;
+  background: #fff;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0 0 24px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.14);
+}
+/* end base project styles */

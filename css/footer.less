@@ -1,0 +1,73 @@
+@import 'lib/mixins';
+@import 'project_style';
+/* footer styles */
+
+.footer{
+  color:@white;
+}
+
+.footer__wrap{
+  padding: 40em/@bfz 0 10em/@bfz;
+}
+
+.footer__contacts-wrap{
+  padding: 12em/@bfz 0 12em/@bfz;
+  border-bottom:1px solid #fff;
+//  margin-bottom: 2em/@bfz;
+  .clearfix;
+}
+
+//elems:
+
+.footer__logo-company{
+  float:left;
+  margin-bottom: 10em/@bfz;
+
+  img{
+    max-width: 100%;
+  }
+}
+
+.footer__contacts{
+  float:right;
+
+  >li{
+    .inline-block;
+    max-width: 200em/@bfz;
+    margin-left: 35em/@bfz;
+  }
+
+  .city{
+    .helvetica-bold(1em,1.2);
+  }
+  .address, .tel{
+    font-size: 13em/@bfz;
+    line-height: 1.2;
+  }
+
+}
+
+.footer__legal-info{
+  padding: 10em/@bfz 0 10em/@bfz;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10em/@bfz;
+
+  p{
+    font-size: 13em/@bfz;
+  }
+}
+
+.developed-by{
+  text-align: right;
+  font-size: 13em/@bfz;
+
+  a{
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+//and elems
+
+/* end footer styles */

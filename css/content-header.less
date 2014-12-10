@@ -1,0 +1,40 @@
+@import 'lib/mixins';
+@import 'project_style';
+/* content-header styles */
+
+.content-header{
+
+}
+
+.content__logo-wrap{
+  padding: 6em/@bfz 0 8em/@bfz;
+  text-align: center;
+  img{
+    max-width: 100%;
+  }
+}
+
+.main-menu{
+  padding: 10em/@bfz 0 0 0;
+  margin-bottom:-1.2em;
+
+  >ul{
+    .justify();
+
+    >li{
+      margin-bottom: 15em/@bfz;
+
+      a{
+        .helvetica-roman(1em,1);
+      }
+
+      &:hover, .active{
+        a{
+          color:@blue;
+        }
+      }
+    }
+  }
+}
+
+/* end content-header styles */
